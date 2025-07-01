@@ -18,29 +18,16 @@
 ### From Source (for Development)
 
 1. Download or clone this repository.
-2. Unzip the contents if necessary.
-3. Open Google Chrome and go to `chrome://extensions/`
-4. Enable **Developer Mode** (toggle in top right).
-5. Click **Load unpacked**.
-6. Select the extracted folder containing `manifest.json`.
-
-### From Chrome Web Store (Coming Soon)
-> Stay tuned! We'll publish the extension soon.
+2. Open Google Chrome and go to `chrome://extensions/`
+3. Enable **Developer Mode** (toggle in top right).
+4. Click **Load unpacked**.
+5. Select the folder containing `manifest.json`.
 
 ## 🛠️ Usage
 
 1. Click on the **Webpage Summarizer** icon in the Chrome toolbar.
 2. It will fetch and display a summary of the current page.
 3. You can copy or save the summary for later use.
-
-## 🧾 Files
-
-- `manifest.json`: Extension manifest defining permissions and structure
-- `popup.html`: UI layout for the popup
-- `popup.js`: Handles summarization logic and user interaction
-- `style.css`: Styles the popup interface
-- `icon.png`: Extension icon (used in toolbar and listing)
-- `content.js` *(if applicable)*: Runs in the context of the webpage to extract content
 
 ## 🛡️ Permissions
 
@@ -52,17 +39,4 @@ This extension may request:
 
 - JavaScript / HTML / CSS
 - Chrome Extensions API
-- Optional: OpenAI / local NLP model for summarization
-
-## 🧑‍💻 Developer Notes
-
-To customize the summarization logic:
-- Modify `popup.js` to implement your preferred algorithm or connect to an external summarization API.
-
-## 📃 License
-
-MIT License - Free to use and modify.
-
----
-
-Made with ❤️ to save your reading time.
+- Gemini API
